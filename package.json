@@ -1,0 +1,20 @@
+{
+  "name": "ensgate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "cf-typegen": "wrangler types"
+  },
+  "dependencies": {
+    "hono": "4.12.7",
+    "viem": "2.47.2"
+  },
+  "devDependencies": {
+    "@types/node": "25.5.0",
+    "typescript": "5.9.3",
+    "wrangler": "4.72.0"
+  }
+}
